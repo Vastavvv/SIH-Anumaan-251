@@ -5,6 +5,7 @@ import httpx, numpy as np, joblib
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from .train import train_models, demand_features, route_features, ALT
+from backend.dispatch import build_dispatch_plan
 
 ROOT=Path(__file__).resolve().parents[1]
 REGIONS=json.loads((ROOT/'data/regions.json').read_text()); OPS=json.loads((ROOT/'data/operational_demo.json').read_text())
@@ -60,6 +61,13 @@ def forecast(start_date:str|None=None,demand_surge:float=Query(0,ge=-30,le=80)):
     try: dt=date.fromisoformat(start_date) if start_date else date.today()
     except: raise HTTPException(400,'start_date must be YYYY-MM-DD')
     return {'startDate':dt.isoformat(),'demandSurge':demand_surge,'forecast':make_forecast(dt,demand_surge)}
+@app.post("/api/dispatch/plan")
+def dispatch_plan(records: list[dict]):
+    return {
+        "status": "success",
+        "count": len(records),
+        "dispatch_plan": build_dispatch_plan(records)
+    }
 @app.get('/api/weather/all')
 async def weather_all():
     out=[]
