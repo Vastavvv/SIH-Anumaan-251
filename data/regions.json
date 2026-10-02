@@ -1,0 +1,66 @@
+[
+  {
+    "id": "R-01",
+    "name": "Region North",
+    "city": "Srinagar",
+    "lat": 34.0837,
+    "lon": 74.7973,
+    "environment": "Mountain / Cold"
+  },
+  {
+    "id": "R-02",
+    "name": "Region High-Altitude",
+    "city": "Leh",
+    "lat": 34.1526,
+    "lon": 77.5771,
+    "environment": "High Altitude"
+  },
+  {
+    "id": "R-03",
+    "name": "Region West",
+    "city": "Jaisalmer",
+    "lat": 26.9157,
+    "lon": 70.9083,
+    "environment": "Arid"
+  },
+  {
+    "id": "R-04",
+    "name": "Region Central",
+    "city": "Pune",
+    "lat": 18.5204,
+    "lon": 73.8567,
+    "environment": "Plateau"
+  },
+  {
+    "id": "R-05",
+    "name": "Region East",
+    "city": "Gangtok",
+    "lat": 27.3389,
+    "lon": 88.6065,
+    "environment": "Mountain / Wet"
+  },
+  {
+    "id": "R-06",
+    "name": "Region North-Central",
+    "city": "Dehradun",
+    "lat": 30.3165,
+    "lon": 78.0322,
+    "environment": "Foothills"
+  },
+  {
+    "id": "R-07",
+    "name": "Region Northeast",
+    "city": "Guwahati",
+    "lat": 26.1445,
+    "lon": 91.7362,
+    "environment": "Wet / Plains"
+  },
+  {
+    "id": "R-08",
+    "name": "Region West-Central",
+    "city": "Jaipur",
+    "lat": 26.9124,
+    "lon": 75.7873,
+    "environment": "Semi-arid"
+  }
+]

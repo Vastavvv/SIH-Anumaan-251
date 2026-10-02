@@ -1,0 +1,12 @@
+{
+  "generatedAt": "training run",
+  "dataMode": "synthetic operational training data",
+  "demandModel": "HistGradientBoostingRegressor",
+  "routeRiskModel": "HistGradientBoostingClassifier",
+  "mae": 12.743294789595858,
+  "routeRiskAUC": 0.6336903219457792,
+  "brier": 0.1784631750819026,
+  "trainingRows": 8320,
+  "routeTrainingRows": 10000,
+  "temporalPattern": "Synthetic history includes recurring day-of-week effects; the model learns them from features."
+}

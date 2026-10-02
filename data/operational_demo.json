@@ -1,0 +1,146 @@
+[
+  {
+    "region": "R-01",
+    "commodity": "Rations",
+    "stock": 2450,
+    "daily_demand": 470,
+    "seven_day_need": 3290,
+    "cover_days": 5.2,
+    "status": "WATCH"
+  },
+  {
+    "region": "R-01",
+    "commodity": "POL",
+    "stock": 610,
+    "daily_demand": 310,
+    "seven_day_need": 2170,
+    "cover_days": 2.0,
+    "status": "CRITICAL"
+  },
+  {
+    "region": "R-02",
+    "commodity": "Rations",
+    "stock": 2100,
+    "daily_demand": 350,
+    "seven_day_need": 2450,
+    "cover_days": 6.0,
+    "status": "WATCH"
+  },
+  {
+    "region": "R-02",
+    "commodity": "Medical",
+    "stock": 185,
+    "daily_demand": 34,
+    "seven_day_need": 238,
+    "cover_days": 5.4,
+    "status": "WATCH"
+  },
+  {
+    "region": "R-03",
+    "commodity": "POL",
+    "stock": 840,
+    "daily_demand": 265,
+    "seven_day_need": 1855,
+    "cover_days": 3.2,
+    "status": "CRITICAL"
+  },
+  {
+    "region": "R-03",
+    "commodity": "Rations",
+    "stock": 3000,
+    "daily_demand": 390,
+    "seven_day_need": 2730,
+    "cover_days": 7.7,
+    "status": "HEALTHY"
+  },
+  {
+    "region": "R-04",
+    "commodity": "Rations",
+    "stock": 2537,
+    "daily_demand": 635,
+    "seven_day_need": 3240,
+    "cover_days": 5.1,
+    "status": "WATCH"
+  },
+  {
+    "region": "R-04",
+    "commodity": "POL",
+    "stock": 458,
+    "daily_demand": 420,
+    "seven_day_need": 2670,
+    "cover_days": 1.1,
+    "status": "CRITICAL"
+  },
+  {
+    "region": "R-04",
+    "commodity": "Medical",
+    "stock": 158,
+    "daily_demand": 32,
+    "seven_day_need": 213,
+    "cover_days": 4.9,
+    "status": "WATCH"
+  },
+  {
+    "region": "R-05",
+    "commodity": "Rations",
+    "stock": 1550,
+    "daily_demand": 280,
+    "seven_day_need": 1960,
+    "cover_days": 5.5,
+    "status": "WATCH"
+  },
+  {
+    "region": "R-05",
+    "commodity": "Medical",
+    "stock": 130,
+    "daily_demand": 22,
+    "seven_day_need": 154,
+    "cover_days": 5.9,
+    "status": "WATCH"
+  },
+  {
+    "region": "R-06",
+    "commodity": "POL",
+    "stock": 510,
+    "daily_demand": 205,
+    "seven_day_need": 1435,
+    "cover_days": 2.5,
+    "status": "CRITICAL"
+  },
+  {
+    "region": "R-06",
+    "commodity": "Rations",
+    "stock": 2500,
+    "daily_demand": 320,
+    "seven_day_need": 2240,
+    "cover_days": 7.8,
+    "status": "HEALTHY"
+  },
+  {
+    "region": "R-07",
+    "commodity": "Rations",
+    "stock": 1800,
+    "daily_demand": 410,
+    "seven_day_need": 2870,
+    "cover_days": 4.4,
+    "status": "CRITICAL"
+  },
+  {
+    "region": "R-07",
+    "commodity": "Medical",
+    "stock": 260,
+    "daily_demand": 29,
+    "seven_day_need": 203,
+    "cover_days": 9.0,
+    "status": "HEALTHY"
+  },
+  {
+    "region": "R-08",
+    "commodity": "POL",
+    "stock": 920,
+    "daily_demand": 250,
+    "seven_day_need": 1750,
+    "cover_days": 3.7,
+    "status": "CRITICAL"
+  }
+]
